@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head> <!--cosas para especificar al navegador-->
-          <meta charset="utf-8" />
+          <meta charset="utf-8" />   <!--se van a ver bien las palabras-->
           <title> 
               HTML CON EMANUEL   <!--titulo de barra-->
           </title>
+
+          <link rel="stylesheet" href="css/estilos.css"/>
     </head>
     <body>   <!-- el body es Lo que queres q vea el usuario en el espacio en blanco de la pagina-->
-        <h1> TITULO DE LA PAGINA</h1>  <!--encabezado por nivel de 1 al 5-->
-        <h2>Toy chiquito ñ</h2>
+         <!--encabezado por nivel de 1 al 5-->
+        
 
         <ul>
             <li>
@@ -17,26 +19,49 @@
             <li><a href="contacto.html">contacto</a></li>
         </ul>
 
-        <h3>toy mas chiquito doble </h3>
-        <p> Todo el texto que quiera verr</p>
-        ahh aiuda <br/> <!--salto de linea-->
-        helpme
-        <hr>  <!--linea en el texto-->
+        <div id="container">
+        
+            <header>
+                <h1> TITULO DE LA CORSAIR</h1> </header>
 
-        <h1>Listas</h1>
+              <nav>
+                  <ul>
+                      <li>
+                          <a href="index.html">
+                              contacto
+                          </a>
+                      </li>
+                      <li>
+                        <a href="index.html">
+                            Ingresar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            Correo
+                        </a>
+                    </li>
+                  </ul>
+              </nav>
+                
+              <div class="clearfix"> </div>
+              <section id="content">
+                  <article class="article">
+                      <h2>Titulo Articulo CORSAIR</h2>
+                      <p>Texto de articulo a escribir parrafo</p>
 
-        <ol>
-            <li>Adidas</li>
-            <li>nike</li>
-            <li>puma</li>
+                  </article>
+              </section>
 
-        </ol>
+              <aside>
+                  <h2>Barra lateral</h2>
+                  <form>
+                      <input type="text">
+                      <input type="submit" value="Buscar"/>
+                  </form>
+                  
+              </aside>
 
-        <hr/> <!--separador de cadenas-->
-
-        <h1>Imagenes</h1>
-
-        <img width="200px" halt="giornio" src="img/giornio.jpg" />
-    </body>
-
-</html>
+              <footer>
+                  Emanuel web &copy; 2020
+              </footer>
