@@ -17,7 +17,7 @@ body{
 
 }
 
-header{
+header h1{
     background: orange;
     height: 100px;
     width: 100%;
@@ -73,3 +73,22 @@ footer{
     line-height: 50px;
 }
 
+
+.image-box{
+    border: 2px solid #ccc;
+    padding: 6px;
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    
+    
+  }
+
+  .image-box img {
+    
+    margin: rela;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
